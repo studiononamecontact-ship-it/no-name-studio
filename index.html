@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--
+  TODO domaine : "https://no-name-studio.fr" est un PLACEHOLDER (pas de domaine reserve pour
+  l'instant). Une fois le vrai domaine choisi, chercher/remplacer "no-name-studio.fr" dans ce
+  fichier, dans robots.txt et dans sitemap.xml (voir HANDOFF.md).
+-->
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>No Name Studio, agence de communication visuelle</title>
+<meta name="description" content="No Name Studio : branding, print, web et motion design. Un devis en quelques clics." />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#e6281c" />
+<link rel="canonical" href="https://no-name-studio.fr/" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+<!-- Open Graph / partage reseaux sociaux -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="No Name Studio" />
+<meta property="og:title" content="No Name Studio, agence de communication visuelle" />
+<meta property="og:description" content="Identité visuelle, print, web et motion : on donne un visage à vos idées, de la première esquisse à la mise en ligne." />
+<meta property="og:image" content="https://no-name-studio.fr/images/og-cover.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://no-name-studio.fr/" />
+<meta property="og:locale" content="fr_FR" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="No Name Studio, agence de communication visuelle" />
+<meta name="twitter:description" content="Identité visuelle, print, web et motion : on donne un visage à vos idées, de la première esquisse à la mise en ligne." />
+<meta name="twitter:image" content="https://no-name-studio.fr/images/og-cover.jpg" />
+
+<link rel="stylesheet" href="styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "No Name Studio",
+  "description": "Agence de communication visuelle : identité de marque, print, web et motion design.",
+  "url": "https://no-name-studio.fr/",
+  "areaServed": "FR",
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Branding", "description": "Logo, typographie, charte graphique, mini charte graphique." } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Print", "description": "Carte de visite, flyer, dépliant, affiche, packaging, magazine, kakemono, signalétique, covering, vitrophanie." } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web", "description": "Maquette de site web, maquette d'application." } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Motion & vidéo", "description": "Motion design, montage vidéo longue et courte." } }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="cursor-grid" aria-hidden="true"></div>
+<div class="custom-cursor" id="custom-cursor" aria-hidden="true"><span>clic</span></div>
+
+<nav class="nav">
+  <a href="#hero" class="nav-logo">
+    <span class="nav-logo-sub">no name</span>
+    <span class="nav-logo-main">STUDIO</span>
+  </a>
+  <div class="nav-links">
+    <a href="#services" class="btn btn-outline">Services</a>
+    <a href="#portfolio" class="btn btn-outline">Portfolio</a>
+    <a href="#contact" class="btn btn-red">Contact <span class="btn-arrow">&#8594;</span></a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ============ HERO : 4 bandes qui se retractent au scroll ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-stage">
+
+      <div class="hero-bars" aria-hidden="true">
+        <div class="hero-bar"><span>Branding</span></div>
+        <div class="hero-bar"><span>Motion</span></div>
+        <div class="hero-bar"><span>Web</span></div>
+        <div class="hero-bar"><span>Video</span></div>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-heading">
+          <span class="hero-eyebrow">no name</span>
+          <span class="hero-title">STUDIO</span>
+        </h1>
+        <p class="hero-tagline">Identité visuelle, print, web et motion : on donne un visage à vos idées, de la première esquisse à la mise en ligne.</p>
+        <div class="hero-actions">
+          <div class="hero-buttons">
+            <a href="#services" class="btn btn-red btn-lg">Démarrer un projet</a>
+            <a href="#portfolio" class="btn btn-outline btn-lg">Portfolio <span class="btn-arrow">&#8594;</span></a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><span class="hero-stat-num">+6</span><span class="hero-stat-label">ans de graphisme</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">+20</span><span class="hero-stat-label">clients satisfaits</span></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#portfolio" class="hero-scroll">
+        <span>Scroll</span>
+        <span class="hero-scroll-line"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ BANDEAU LOGOS (marquee rouge) ============ -->
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee-row">
+      <div class="marquee-track">
+        <img src="images/marquee/logo-01.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-02.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-03.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-04.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-05.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-06.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-07.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-08.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-09.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-10.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-11.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-12.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-13.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-14.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-15.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-16.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-17.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-18.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-19.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-20.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-21.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-22.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-23.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-24.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-25.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-26.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-27.png" width="400" height="400" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-28.png" width="400" height="187" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-29.png" width="400" height="187" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-30.png" width="400" height="187" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-31.png" width="400" height="187" alt="" loading="lazy" class="marquee-logo" />
+        <img src="images/marquee/logo-32.png" width="400" height="187" alt="" loading="lazy" class="marquee-logo" />
+      </div>
+      <div class="marquee-track" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <h2 class="sr-only">Nos services</h2>
+    <div class="services-list">
+
+      <div class="cat-row" data-category="branding">
+        <button class="cat-row-header" aria-expanded="false">
+          <span class="cat-row-left">
+            <span class="cat-name" role="heading" aria-level="3">Branding</span>
+            <span class="cat-count">4 prestations</span>
+          </span>
+          <span class="cat-index">01</span>
+        </button>
+        <div class="cat-row-panel">
+          <div class="cat-row-panel-inner">
+            <ul class="cat-chips">
+              <li>Logo</li>
+              <li>Typographie</li>
+              <li>Charte graphique</li>
+              <li>Mini charte graphique</li>
+            </ul>
+            <button class="btn btn-outline-light btn-sm" data-open-quote="branding">Demander ce service</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cat-row" data-category="print">
+        <button class="cat-row-header" aria-expanded="false">
+          <span class="cat-row-left">
+            <span class="cat-name" role="heading" aria-level="3">Print</span>
+            <span class="cat-count">11 prestations</span>
+          </span>
+          <span class="cat-index">02</span>
+        </button>
+        <div class="cat-row-panel">
+          <div class="cat-row-panel-inner">
+            <ul class="cat-chips">
+              <li>Carte de visite</li>
+              <li>Flyer</li>
+              <li>Dépliant</li>
+              <li>Affiche</li>
+              <li>Affiche événement</li>
+              <li>Packaging</li>
+              <li>Magazine</li>
+              <li>Kakemono</li>
+              <li>Signalétique</li>
+              <li>Covering</li>
+              <li>Vitrophanie</li>
+            </ul>
+            <button class="btn btn-outline-light btn-sm" data-open-quote="print">Demander ce service</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cat-row" data-category="web">
+        <button class="cat-row-header" aria-expanded="false">
+          <span class="cat-row-left">
+            <span class="cat-name" role="heading" aria-level="3">Web</span>
+            <span class="cat-count">2 prestations</span>
+          </span>
+          <span class="cat-index">03</span>
+        </button>
+        <div class="cat-row-panel">
+          <div class="cat-row-panel-inner">
+            <ul class="cat-chips">
+              <li>Maquette site web</li>
+              <li>Maquette application</li>
+            </ul>
+            <button class="btn btn-outline-light btn-sm" data-open-quote="web">Demander ce service</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cat-row" data-category="motion">
+        <button class="cat-row-header" aria-expanded="false">
+          <span class="cat-row-left">
+            <span class="cat-name" role="heading" aria-level="3">Motion &amp; vidéo</span>
+            <span class="cat-count">3 prestations</span>
+          </span>
+          <span class="cat-index">04</span>
+        </button>
+        <div class="cat-row-panel">
+          <div class="cat-row-panel-inner">
+            <ul class="cat-chips">
+              <li>Motion design</li>
+              <li>Montage vidéo longue</li>
+              <li>Montage vidéo courte</li>
+            </ul>
+            <button class="btn btn-outline-light btn-sm" data-open-quote="motion">Demander ce service</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="sr-only">Portfolio</h2>
+
+    <article class="pf-section" data-category="branding" data-direction="ltr">
+      <header class="pf-header">
+        <span class="pf-eyebrow">portfolio</span>
+        <h2 class="pf-title">Branding</h2>
+      </header>
+      <div class="pf-viewport"><div class="pf-track"></div></div>
+      <div class="pf-footer"><button class="btn btn-dark" data-open-quote="branding">Demander un devis pour ce service</button></div>
+    </article>
+
+    <article class="pf-section" data-category="print" data-direction="rtl">
+      <header class="pf-header">
+        <span class="pf-eyebrow">portfolio</span>
+        <h2 class="pf-title">Print</h2>
+      </header>
+      <div class="pf-viewport"><div class="pf-track"></div></div>
+      <div class="pf-footer"><button class="btn btn-dark" data-open-quote="print">Demander un devis pour ce service</button></div>
+    </article>
+
+    <article class="pf-section" data-category="web" data-direction="ltr">
+      <header class="pf-header">
+        <span class="pf-eyebrow">portfolio</span>
+        <h2 class="pf-title">Web</h2>
+      </header>
+      <div class="pf-viewport"><div class="pf-track"></div></div>
+      <div class="pf-footer"><button class="btn btn-dark" data-open-quote="web">Demander un devis pour ce service</button></div>
+    </article>
+
+    <article class="pf-section" data-category="motion" data-direction="rtl">
+      <header class="pf-header">
+        <span class="pf-eyebrow">portfolio</span>
+        <h2 class="pf-title">Motion &amp; vidéo</h2>
+      </header>
+      <div class="pf-viewport"><div class="pf-track"></div></div>
+      <div class="pf-footer"><button class="btn btn-dark" data-open-quote="motion">Demander un devis pour ce service</button></div>
+    </article>
+
+  </section>
+
+  <!-- ============ STUDIO / EQUIPE ============ -->
+  <section class="team reveal" id="studio">
+    <span class="eyebrow-pill">L'équipe</span>
+    <h2 class="team-title">Qui sommes-nous ?</h2>
+    <p class="team-text">Deux amis qui se sont rencontrés en étude de communication visuelle et qui accompagnent des entreprises dans leur marketing digital.</p>
+    <div class="team-photos">
+      <div class="team-member">
+        <div class="team-photo">
+          <div class="team-photo-bg"></div>
+          <img src="images/team/yann.png" alt="Photo de Yann" loading="lazy" width="600" height="654" class="team-photo-img" />
+        </div>
+        <span class="team-name">Yann</span>
+        <span class="team-role">Branding et web</span>
+      </div>
+      <div class="team-member team-member-offset">
+        <div class="team-photo">
+          <div class="team-photo-bg"></div>
+          <img src="images/team/attilio.png" alt="Photo d'Attilio" loading="lazy" width="600" height="667" class="team-photo-img" />
+        </div>
+        <span class="team-name">Attilio</span>
+        <span class="team-role">Motion et vidéo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="final-cta reveal" id="contact">
+    <span class="eyebrow-pill eyebrow-pill-light">Un projet en tête ?</span>
+    <h2 class="final-cta-title">Parlons de votre prochain projet.</h2>
+    <p class="final-cta-text">Choisissez un service ci-dessus ou dites-nous simplement ce qu'il vous faut, on revient vers vous rapidement.</p>
+    <a href="#services" class="btn btn-red btn-lg">Démarrer un projet</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span class="nav-logo footer-logo">no name studio</span>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#studio">Studio</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <span class="footer-copy">2026, No Name Studio</span>
+</footer>
+
+<!-- ============ MODAL DEVIS ============ -->
+<div class="modal" id="quote-modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-quote></div>
+  <div class="modal-panel">
+    <button class="icon-btn modal-close" data-close-quote aria-label="Fermer">&#10005;</button>
+    <span class="modal-eyebrow" id="quote-category">Catégorie</span>
+    <h3 class="modal-title">Demander un devis</h3>
+    <form id="quote-form">
+      <div class="modal-checklist" id="quote-checklist"></div>
+      <div class="modal-field-row">
+        <label class="modal-field">
+          <span>Prénom</span>
+          <input type="text" id="quote-firstname" name="firstname" autocomplete="given-name" required />
+        </label>
+        <label class="modal-field">
+          <span>Nom</span>
+          <input type="text" id="quote-lastname" name="lastname" autocomplete="family-name" required />
+        </label>
+      </div>
+      <label class="modal-field">
+        <span>Email</span>
+        <input type="email" id="quote-email" name="email" autocomplete="email" placeholder="vous@exemple.fr" required />
+      </label>
+      <label class="modal-field">
+        <span>Parlez-nous de votre projet</span>
+        <textarea rows="4" id="quote-message" placeholder="Contexte, objectifs, univers visuel..."></textarea>
+      </label>
+      <label class="modal-field">
+        <span>Deadline (optionnel)</span>
+        <input type="date" id="quote-deadline" />
+      </label>
+      <p class="modal-error" id="quote-error" hidden>Un problème est survenu lors de l'envoi. Réessayez, ou écrivez-nous directement à studiononame.contact@gmail.com.</p>
+      <button type="submit" class="btn btn-red btn-block" id="quote-submit-btn">Envoyer la demande</button>
+    </form>
+    <div class="modal-success" id="quote-success" hidden>
+      <p>Merci, votre demande est bien partie.</p>
+      <p class="modal-success-sub">On revient vers vous sous 48h.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ POPUP GALERIE PORTFOLIO ============ -->
+<div class="modal" id="gallery-modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-gallery></div>
+  <div class="gallery-panel">
+    <button class="icon-btn modal-close" data-close-gallery aria-label="Fermer">&#10005;</button>
+    <span class="modal-eyebrow" id="gallery-label">portfolio</span>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</div>
+
+<!-- ============ LIGHTBOX (image seule) ============ -->
+<div class="modal" id="lightbox-modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-lightbox></div>
+  <div class="lightbox-panel">
+    <button class="icon-btn icon-btn-light modal-close" data-close-lightbox aria-label="Fermer">&#10005;</button>
+    <div class="lightbox-image-wrap">
+      <div class="ph lightbox-image" id="lightbox-image"></div>
+    </div>
+    <div class="popup-controls">
+      <button class="lightbox-nav" id="lightbox-prev" aria-label="Image précédente">&#8592;</button>
+      <button class="lightbox-nav" id="lightbox-next" aria-label="Image suivante">&#8594;</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
