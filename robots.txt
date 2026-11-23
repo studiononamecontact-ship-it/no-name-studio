@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://no-name-studio.fr/sitemap.xml
+Sitemap: https://yatti-studio.fr/sitemap.xml

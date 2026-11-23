@@ -1,5 +1,5 @@
 // ============================================================
-// NO NAME STUDIO, interactions one-page
+// YATTI STUDIO, interactions one-page
 // grille au curseur, hero (barres qui se retractent), reveals,
 // accordeon services, portfolio scroll horizontal + popups,
 // modal de devis.
